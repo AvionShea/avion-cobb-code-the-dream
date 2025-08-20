@@ -1,4 +1,4 @@
-# 🌟 Code the Dream - Intro to Programming Journey
+# 🌟 Code the Dream - Avion Cobb's Journey - Intro to Programming
 
 <div align="center">
 
