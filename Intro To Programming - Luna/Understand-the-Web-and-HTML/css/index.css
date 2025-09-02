@@ -35,6 +35,16 @@ section h2 {
   color: rgb(33, 255, 181);
 }
 
+a {
+  color: rgb(33, 255, 181);
+}
+
+img {
+  border: 5px white solid;
+  border-radius: 50%;
+  box-shadow: 10px 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -43,23 +53,29 @@ section h2 {
 }
 
 .navbar a {
+  font-size: 25px;
   float: left;
   padding: 15px;
   text-decoration: none;
 }
 
 .experience-list li {
-  background-color: #dacbcb;
+  background-color: #1ed7f0;
   padding: 5px;
-  margin-bottom: 25px;
-  border-radius: 6px;
-  box-shadow: 0 10px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+  border-radius: 50%;
 }
 
 .name {
   padding-top: 50px;
   font-size: 100px;
   font-family: "Times New Roman", Times, serif;
+}
+#about {
+  font-size: 20px;
+  background-color: rgb(255, 17, 243);
+  border-radius: 120px;
+  box-shadow: -10px 0px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .about-me {
