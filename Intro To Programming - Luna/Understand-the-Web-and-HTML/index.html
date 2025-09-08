@@ -8,40 +8,47 @@
     <meta name="author" content="Avion Cobb" />
 
     <title>Avion Cobb's Portfolio</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section id="home">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#experience">My Experience</a></li>
-            <li><a href="#connect">Connect with Me</a></li>
-          </ul>
-        </nav>
-      </header>
-    </section>
-    <h1>Avion Cobb</h1>
+    <header id="home">
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#experience">My Experience</a></li>
+          <li><a href="#connect">Connect with Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section><h1 class="name">Avion Cobb</h1></section>
     <section id="about">
-      <h2>About</h2>
+      <h2>About Me</h2>
       <img
         src="https://media.licdn.com/dms/image/v2/D5603AQF8ZKg6TnvAZw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730765416697?e=1758758400&v=beta&t=bMjQO1J2xS00-i1R6B7bpymtRpppwvTORYWkjwqh54E"
+        alt="headshot of a smiling woman"
       />
-      <p>
+      <p class="about-me">
         Hi everyone, my name is Avion. I am currently pursuing an Associate’s
         degree in Computer Science and plan to continue on to a Bachelor’s in
         Computer Science. My career goal is to become a software engineer and
         eventually move into a tech leadership position, where I can contribute
         to building tools that make a real impact.
       </p>
-      <p>
+      <p class="about-me">
         Right now, I’m gaining hands-on experience with JavaScript, React,
         Node.js, and PostgreSQL, and I enjoy learning how to build projects that
         solve everyday problems. I also volunteer with organizations like
         Habitat for Humanity and Kramden Institute, which allows me to give back
         to the community while sharpening teamwork and problem-solving skills.
       </p>
-      <p>
+      <p class="about-me">
         Outside of school and tech, I enjoy gaming, music, and riding my
         motorcycle. I’m excited to connect with classmates, collaborate on
         ideas, and grow together in this course. If you’d like to connect
@@ -52,8 +59,8 @@
       </p>
     </section>
     <section id="experience">
-      <h2>Experience</h2>
-      <ul>
+      <h2>My Experience</h2>
+      <ul class="experience-list">
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
@@ -69,22 +76,20 @@
       </ul>
     </section>
     <section id="connect">
-      <h2>Connect</h2>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/avion-cobb/" target="_blank"
-            >LinkedIn</a
-          >
-        </li>
-        <li>
-          <a href="https://github.com/AvionShea" target="_blank">GitHub</a>
-        </li>
-      </ul>
+      <h2>Connect with Me</h2>
+      <span class="social">
+        <a href="https://www.linkedin.com/in/avion-cobb/" target="_blank"
+          ><i class="fa-brands fa-linkedin fa-2xl"></i
+        ></a>
+      </span>
+      <span class="social">
+        <a href="https://github.com/AvionShea" target="_blank"
+          ><i class="fa-brands fa-square-github fa-2xl"></i
+        ></a>
+      </span>
     </section>
     <footer>
-      <span style="font-size: 30px"
-        ><a style="text-decoration: none" href="#home">&#128285;</a></span
-      >
+      <span class="top"><a href="#home">&#8613;</a></span>
     </footer>
   </body>
 </html>
