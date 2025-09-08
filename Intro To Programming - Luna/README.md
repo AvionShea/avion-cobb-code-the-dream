@@ -123,15 +123,17 @@ style E fill:#ffebee
 
 ## 🤝 Code the Dream Community
 
-**Mentorship Model**: Weekly 1:1 sessions with professional software developers
+**Mentorship Model**: Weekly 1:1 and/or group sessions with professional software developers
+
 **Peer Learning**: Group coding sessions and collaborative problem-solving
+
 **Industry Connection**: Direct access to working professionals in tech
 **Career Support**: Job seeker toolkit and alumni network access
 
 ## 📈 Progress Tracking
 
 - [x] **Pre-Work Assignment** - Khan Academy JavaScript Drawing & Animation
-- [ ] **Week 1-5**: Programming Fundamentals
+- [x] **Week 1-5**: Programming Fundamentals
 - [ ] **Week 6-10**: Intermediate Concepts
 - [ ] **Week 11-15**: Advanced Topics & Final Project
 
