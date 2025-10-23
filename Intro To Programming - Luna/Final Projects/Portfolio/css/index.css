@@ -1,0 +1,519 @@
+:root {
+  font-size: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "TASA Orbiter", sans-serif;
+  text-align: center;
+  background: #580f41;
+}
+
+section {
+  width: 100%;
+  padding: 55px 20px;
+  margin: 0px auto;
+}
+
+li {
+  list-style: none;
+}
+
+section li {
+  color: #3b0a2a;
+  font-weight: bold;
+}
+
+section h2 {
+  padding-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #d4af37;
+}
+
+a {
+  color: #c08081;
+  text-decoration: none;
+}
+a:hover {
+  color: #d4af37;
+}
+a:active {
+  color: #c08081;
+}
+a:visited {
+  color: #c08081;
+}
+
+.double-text::before {
+  position: absolute;
+  content: "Avion Cobb";
+  color: #00000091;
+  transform: translate(5px, 5px);
+  z-index: -1;
+}
+
+.highlight-text {
+  color: #d4af37;
+}
+
+#hamnav {
+  position: fixed;
+  font-size: 2em;
+  width: 100%;
+  height: 50px;
+  background: #580f41;
+  z-index: 1;
+}
+
+#hamitems {
+  display: flex;
+}
+
+.navbar a {
+  font-size: 2.5rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-top: 15px;
+  padding: 15px;
+  text-decoration: none;
+  color: #c08081;
+  z-index: 1;
+}
+
+#hamnav label,
+#hamburger {
+  display: none;
+}
+
+.navbar a:hover {
+  color: #d4af37;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 150px;
+  margin: 0px auto;
+  width: 95%;
+}
+#about {
+  padding-top: 100px;
+}
+
+.about-me {
+  font-size: 2rem;
+  background-color: #3b0a2a;
+  padding: 55px 25px 25px 25px;
+  margin: 30px;
+  color: #c08081;
+  border: 2px solid #d4af37;
+  border-radius: 120px;
+  box-shadow: -10px 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.about-me-para {
+  padding: 15px;
+}
+
+.about-me-photo {
+  height: 500px;
+  padding: 30px;
+  margin-top: 80px;
+  border: 20px #d4af37 solid;
+  border-radius: 50%;
+  box-shadow: 15px 10px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.experience {
+  display: flex;
+  margin-top: -50px;
+}
+
+.experience-list h2 {
+  color: #3b0a2a;
+}
+
+.experience-list li {
+  list-style: disc;
+  text-align: left;
+  margin: 10px;
+  color: #3b0a2a;
+}
+
+.experience-list {
+  flex: 100%;
+  background-color: #9f8170;
+  color: #3b0a2a;
+  font-size: 2rem;
+  padding: 30px;
+  margin: 15px;
+  border: 5px solid #d4af37;
+  box-shadow: 10px -10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+#skills li {
+  font-size: 3em;
+  text-align: center;
+  margin: 10px auto;
+  color: #c08081;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+  background-color: #3b0a2a60;
+  color: #3b0a2a;
+  font-size: 1rem;
+  padding: 30px;
+  margin: 15px auto;
+  border-radius: 30px;
+  border: 5px dashed #d4af37;
+  box-shadow: 10px -10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.skills-container p {
+  font-size: 5rem;
+  color: white;
+}
+
+.projectList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5em;
+  width: 60%;
+  color: #3b0a2a;
+  padding: 2em;
+  margin-top: -15px;
+  margin: 0px auto 30px auto;
+}
+
+.projectList li {
+  position: relative;
+  padding: 25px;
+  font-size: 2.5rem;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(221, 210, 210);
+  color: #212529;
+  border-radius: 10px;
+}
+
+.blur-text {
+  filter: blur(2.5px);
+}
+
+.blur-text:hover {
+  filter: none;
+  color: #212529;
+}
+
+.classified {
+  position: absolute;
+  font-size: 3.5rem;
+  font-family: monospace;
+  top: 50%;
+  left: 50%;
+  color: red;
+  transform: translate(-50%, -50%);
+}
+
+.projectList li:hover .classified {
+  display: none;
+}
+
+.name {
+  padding-top: 50px;
+  font-size: 18rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #d4af37;
+}
+
+.social-link,
+.social-link:visited {
+  color: #ffffff;
+}
+
+.top {
+  font-size: 5rem;
+  color: #c08081;
+}
+
+.top a {
+  text-decoration: none;
+  color: #d4af37;
+}
+
+.social a {
+  padding: 10px;
+  font-size: 2.5rem;
+}
+
+#home {
+  margin-left: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #c08081;
+}
+
+#contact-me {
+  font-size: 3.5rem;
+  color: #c08081;
+  padding: 60px;
+  margin: 10px auto;
+}
+#contact-me button {
+  cursor: pointer;
+  padding: 15px;
+  font-size: 2.5rem;
+  margin: 10px auto;
+  border-radius: 40px;
+  border: 5px solid #c08081;
+}
+
+#contact-me input,
+#contact-me textarea {
+  font-size: 2.5rem;
+  margin: 5px auto;
+}
+
+#contact-me button:hover {
+  background-color: #d4af37;
+}
+
+.message-container {
+  width: 80%;
+  background-color: #9f8170;
+  font-size: 5rem;
+  padding: 30px;
+  margin: 15px auto;
+  border: 5px solid #d4af37;
+  box-shadow: 10px -10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.message-container a {
+  color: #3b0a2a;
+  margin: 15px;
+}
+.message-container li {
+  color: #000000;
+  border-bottom: #3b0a2a solid 3px;
+  margin: 20px auto;
+}
+.message-container button {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 2rem;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+#messages:has(ul:empty) {
+  display: none;
+}
+
+/* Extra small devices (phones, 619px and down) */
+@media only screen and (max-width: 740px) {
+  #hamnav {
+    width: auto;
+    height: 50px;
+  }
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    color: #d4af37;
+  }
+
+  #hamnav label {
+    display: inline-block;
+    color: white;
+    background: #d4af37;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems {
+    display: none;
+  }
+  #hamnav input:checked ~ #hamitems {
+    display: block;
+    background: #580f41;
+  }
+
+  .name {
+    color: #c08081;
+    font-size: 10rem;
+  }
+
+  .about-me-photo {
+    display: none;
+  }
+
+  .skills-container p {
+    margin-top: 35px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+    background-color: #3b0a2a60;
+    color: #3b0a2a;
+    font-size: 1rem;
+    padding: 30px;
+    border-radius: 30px;
+    border: 5px dashed #d4af37;
+    box-shadow: 10px -10px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  #about,
+  .experience,
+  .projectList,
+  #skills {
+    display: block;
+    width: 100%;
+  }
+
+  .about-me-para {
+    width: 100%;
+  }
+
+  .experience-list {
+    background-color: #9f8170;
+    color: #3b0a2a;
+    padding: 25px;
+    margin: 18px;
+    border: 5px solid #d4af37;
+    box-shadow: 32px 10px 8px 3px rgba(36, 16, 49, 0.5);
+  }
+
+  .double-text::before {
+    display: none;
+  }
+
+  #skills li {
+    font-size: 2em;
+    text-align: center;
+    margin: 10px auto;
+    color: #c08081;
+  }
+
+  .projectList li {
+    font-size: 1.5rem;
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .classified {
+    font-size: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 620px and up) */
+@media (min-width: 741px) and (max-width: 1099px) {
+  .navbar {
+    width: auto;
+    height: 50px;
+  }
+
+  .projectList li {
+    padding: 80px;
+    margin: 15px;
+  }
+
+  .name {
+    color: #c08081;
+    font-size: 10rem;
+  }
+  .navbar a {
+    font-size: 25px;
+    padding: 15px;
+    text-decoration: none;
+    color: #d4af37;
+  }
+
+  .double-text::before,
+  .about-me-photo {
+    display: none;
+  }
+
+  .skills-container p {
+    margin-top: 35px;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+    background-color: #3b0a2a60;
+    color: #3b0a2a;
+    font-size: 1rem;
+    padding: 30px;
+    border-radius: 30px;
+    border: 5px dashed #d4af37;
+    box-shadow: 10px -10px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  #about,
+  .experience,
+  .projectList,
+  #skills {
+    display: block;
+    width: 100%;
+  }
+
+  .about-me-para {
+    width: 100%;
+  }
+
+  .experience-list {
+    width: 100%;
+    background-color: #9f8170;
+    color: #3b0a2a;
+    padding: 25px;
+    margin-bottom: 35px;
+    border: 5px solid #d4af37;
+    box-shadow: 32px 10px 8px 3px rgba(36, 16, 49, 0.5);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 1100px) and (max-width: 1279px) {
+  .navbar a {
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    color: #d4af37;
+  }
+
+  .name {
+    padding-top: 50px;
+    font-size: 100px;
+    font-family: "Times New Roman", Times, serif;
+    color: #c08081;
+  }
+
+  .double-text::before {
+    display: none;
+  }
+
+  #about,
+  .experience,
+  .projectList {
+    display: block;
+    width: 100%;
+  }
+
+  .projectList li {
+    padding: 30px;
+    margin: 50px;
+  }
+}
