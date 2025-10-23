@@ -149,9 +149,9 @@ graph TD
 ### 🎓 **Completed Courses**
 
 - [x] **Pre-Work Assignment** - Programming foundations
-- [ ] **Intro to Programming** (15 weeks) - JavaScript, HTML, CSS fundamentals
+- [x] **Intro to Programming** (15 weeks) - JavaScript, HTML, CSS fundamentals - Completed 10/21/2025
 - [ ] **Advanced Frontend** (11 weeks) - React.js ecosystem
-- [ ] **Backend Development** (11 weeks) - Node.js/Express or Rails
+- [ ] **Backend Development** (11 weeks) - Node.js/Express
 - [ ] **Practicum** - Real-world client projects
 - [ ] **Apprenticeship** - Paid professional experience
 
@@ -211,7 +211,7 @@ _Real-world projects for actual clients and nonprofits_
 **Short-term Objectives:**
 
 - Complete Intro to Programming with strong portfolio
-- Advance to specialized track (React/Node.js/Python)
+- Advance to specialized track (React/Node.js)
 - Build professional network through CTD community
 
 **Long-term Vision:**
@@ -249,7 +249,7 @@ Code the Dream's mission resonates deeply with creating a more inclusive tech in
 
 **📝 Repository Purpose**: This collection documents my transformation from programming beginner to industry-ready developer through Code the Dream's comprehensive, community-driven education model.
 
-_Journey Accepted: May 20, 2025 | Journey Started: July 1, 2025 | Current Phase: Intro to Programming | Next Milestone: Advanced Course Selection_
+_Journey Accepted: May 20, 2025 | Journey Started: July 1, 2025 | Current Phase: React.js | Next Milestone: Node.js/Express_
 
 **🚀 "Innovation comes from all of us and benefits all of us"** 🚀
 
