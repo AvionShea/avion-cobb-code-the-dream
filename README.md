@@ -185,8 +185,11 @@ _Real-world projects for actual clients and nonprofits_
 ## 🤝 Community & Mentorship
 
 **Professional Mentors**: Weekly guidance from experienced software developers
+
 **Peer Learning**: Collaborative problem-solving with fellow students
+
 **Alumni Network**: Connection to successful CTD graduates in tech
+
 **Industry Partnerships**: Direct access to hiring partners and career opportunities
 
 ### 💬 Program Impact
