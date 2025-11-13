@@ -134,8 +134,8 @@ style E fill:#ffebee
 
 - [x] **Pre-Work Assignment** - Khan Academy JavaScript Drawing & Animation
 - [x] **Week 1-5**: Programming Fundamentals
-- [ ] **Week 6-10**: Intermediate Concepts
-- [ ] **Week 11-15**: Advanced Topics & Final Project
+- [x] **Week 6-10**: Intermediate Concepts
+- [x] **Week 11-15**: Advanced Topics & Final Project
 
 ## 🎖️ Skills Developed
 
@@ -179,6 +179,6 @@ style E fill:#ffebee
 
 **📝 Note**: This repository represents my personal learning journey through the Code the Dream program. Each project and exercise demonstrates progressive skill development and practical application of programming concepts.
 
-_Last Updated: September 2025_
+_Last Updated: November 2025_
 
 </div>
